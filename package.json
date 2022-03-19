@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "do-it-node.js-programming",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kancho06/Do-it-Node.js-programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kancho06/Do-it-Node.js-programming/issues"
+  },
+  "homepage": "https://github.com/kancho06/Do-it-Node.js-programming#readme",
+  "description": ""
+}
