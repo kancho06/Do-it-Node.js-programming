@@ -21,7 +21,7 @@ for (var i = 0; i < 10000; i++) {
 
 console.timeEnd('duration_time');
 
-
+// 전역변수
 console.log('파일 이름 : %s', __filename);
 console.log('패스 : %s', __dirname);
 

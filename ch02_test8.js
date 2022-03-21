@@ -17,10 +17,10 @@ console.log('dir3 : ' + filepath);
 // 4. 파일명을 제외한 폴더 path만 나타낸다
  var dirname = path.dirname(filepath);
  console.log('dirname : ' + dirname);
-// 5. v
+// 5. 파일명만 나타낸다.
  var basename = path.basename(filepath);
  console.log('basename : ' + basename);
-
+// 6. 파일의 확장자만 나타낸다.
  var extname = path.extname(filepath);
  console.log('extname : ' + extname);
 
