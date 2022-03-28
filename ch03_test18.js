@@ -16,4 +16,4 @@ Person.prototype.walk = function(speed) {
 var person3 = new Person('소녀시대', 32);
 var person4 = new Person('걸스데이', 30);
 
-person3.walk(10);
+person3.walk();
