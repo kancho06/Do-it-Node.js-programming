@@ -14,6 +14,7 @@ var curStr = url.format(curUrl);
 
 console.log('url -> ' + curStr);
 
+// 파싱된 URL에서 param(검색어, 요청파라미터) 값 파싱
 var querystring = require('querystring');
 var params = querystring.parse(curUrl.query);
 console.log('검색어 : ' + params.query);

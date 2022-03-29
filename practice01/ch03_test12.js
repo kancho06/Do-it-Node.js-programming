@@ -11,3 +11,4 @@ console.log('배열 원소의 개수 : ' + users.length);
 
 console.log('shift로 꺼낸 세번째 원소');
 console.dir(elem);
+
