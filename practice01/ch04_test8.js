@@ -15,7 +15,7 @@ fs.open('./output.txt', 'w', function(err, fd) {
     // Buffer.from(string)
     // Buffer.from(string, encoding)
     // Buffer.from(...arguments)
-    var buf = Buffer.from('안녕\n');
+    var buf = Buffer.from('안녕\n', 'utf-8');
     // 0 은 인덱스 번호 
     fs.write(fd, buf, 0, buf.length, null, 
         function(err, written, buffer) {
@@ -29,12 +29,5 @@ fs.open('./output.txt', 'w', function(err, fd) {
             fs.close(fd, function() {
                 console.log('파일 닫기 완료');
             });
-    });
-    fs.read(fd, buf, 0, buf.length, null, function(err) {
-        if(err) {
-            console.log('파일 읽기 에러 발생');
-            console.dir(err);
-        }
-        console.log('파일 읽기 완료');
     });
 });
